@@ -1,3 +1,40 @@
+/**** COLORS ****/
+
+:root {
+	--darkmodeWallpaperHex: #fff;
+	
+	--darkmodeBackgroundHex: #fff;
+	
+	--darkmodeContentBackgroundHex: #fff;
+	
+	--darkmodeHeaderHex: #fff;
+	
+	--darkmodeRowAHex: #fff;
+	
+	--darkmodeRowBHex: #fff;
+	
+	--darkmodeHighlightHex: #fff;
+	
+	--darkmodeTextHex: #fff;
+	
+	--darkmodeLinkHex: #fff;
+	
+	--darkmodeTextInactiveHex: #fff;
+	
+	--darkmodeTextWarn90Hex: #fff;
+	
+	--darkmodeTextWarnHex: #fff;
+	
+	--darkmodeBorderHex: #fff;
+};
+
+
+
+
+
+
+
+
 /**** game/stamm_new_menu.css ****/
 .quickbar {
     border: 1px solid black;
