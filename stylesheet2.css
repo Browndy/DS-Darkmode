@@ -28,6 +28,8 @@
 	--darkmodeBorderHex: #ffffff;
 	
 	--darkmodeQuickbarHex: #ffffff;
+	
+	--darkmodeTransparentHex: #00000000
 };
 
 
@@ -57,13 +59,6 @@ a {
     text-decoration: none;
     color: #603000;
 }
-
-
-/**** SET COLOR ****/
-b {
-	color: #fff;
-}
-
 
 td {
     padding: 0;
@@ -391,7 +386,7 @@ body[dir="rtl"] .vis > h4 {
 /**** SET COLOR ****/
 #main_layout .bg_bottomcenter {
     height: 25px;
-    background: transparent;
+    background: var(--darkmodeBackgroundHex);
 }
 
 
@@ -399,7 +394,7 @@ body[dir="rtl"] .vis > h4 {
 .maincell {
     padding: 0 0 5px;
     vertical-align: top;
-    background: #f2e4c1;
+    background: var(--darkmodeTransparentHex);
 }
 
 
@@ -1291,7 +1286,7 @@ table.no_spacing {
 /**** SET IMAGE ****/
 body {
     background-attachment: fixed;
-    background-color: #d2c09e;
+    background-color: var(--darkmodeWallpaperHex);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1302,6 +1297,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0 0 35px;
+	color: var(--darkmodeTextHex);
 }
 
 body.steam {
@@ -11545,7 +11541,7 @@ header.quest-title .reward img {
     padding: 0;
     height: 0 !important;
     display: none;
-    background: #d2c09e;
+    background: var(--darkmodeWallpaperHex);
 }
 
 ul.quests > li.inactive {
@@ -11685,7 +11681,7 @@ footer.quest-footer {
 }
 
 .reward-tab-content {
-    background: #d2c09e;
+    background: var(--darkmodeWallpaperHex);
 }
 
 .reward-tab-content table {
@@ -11856,7 +11852,7 @@ footer.quest-footer {
 }
 
 .quest-popup-leftbar::-webkit-scrollbar-track, .quest-popup-container::-webkit-scrollbar-track, .popup_box_content::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 4px #d2c09e;
+    -webkit-box-shadow: inset 0 0 4px var(--darkmodeWallpaperHex);
     position: fixed;
 }
 
