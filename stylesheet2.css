@@ -1290,7 +1290,6 @@ table.no_spacing {
 body {
     background-attachment: fixed;
     background-color: #d2c09e;
-    background-image: url();
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1377,13 +1376,13 @@ img {
 
 /**** SET COLOR ****/
 .warn {
-    color: var(darkmodeTextWarnHex);
+    color: #dc0000;
 }
 
 
 /**** SET COLOR ****/
 .warn_90 {
-    color: var(darkmodeTextWarn90Hex);
+    color: #632600;
 }
 
 .nowrap {
