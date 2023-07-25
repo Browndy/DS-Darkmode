@@ -26,6 +26,8 @@
 	--darkmodeTextWarnHex: #fff;
 	
 	--darkmodeBorderHex: #fff;
+	
+	--darkmodeQuickbarHex: #fff;
 };
 
 
@@ -688,21 +690,21 @@ body[dir="rtl"] .vis > h4 {
 
 /**** SET COLOR ****/
 #quickbar_inner .left {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     width: 15px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .main {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     text-align: center;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .right {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     width: 15px;
     position: static;
 }
@@ -710,42 +712,42 @@ body[dir="rtl"] .vis > h4 {
 
 /**** SET COLOR ****/
 #quickbar_inner .topborder .left {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .topborder .main {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .topborder .right {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .bottomborder .left {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .bottomborder .main {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
 
 /**** SET COLOR ****/
 #quickbar_inner .bottomborder .right {
-    background: transparent;
+    background: var(--darkmodeQuickbarHex);
     height: 4px;
 }
 
