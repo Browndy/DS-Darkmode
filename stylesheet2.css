@@ -1,33 +1,33 @@
 /**** COLORS ****/
 
 :root {
-	--darkmodeWallpaperHex: #fff;
+	--darkmodeWallpaperHex: #ffffff;
 	
-	--darkmodeBackgroundHex: #fff;
+	--darkmodeBackgroundHex: #ffffff;
 	
-	--darkmodeContentBackgroundHex: #fff;
+	--darkmodeContentBackgroundHex: #ffffff;
 	
-	--darkmodeHeaderHex: #fff;
+	--darkmodeHeaderHex: #ffffff;
 	
-	--darkmodeRowAHex: #fff;
+	--darkmodeRowAHex: #ffffff;
 	
-	--darkmodeRowBHex: #fff;
+	--darkmodeRowBHex: #ffffff;
 	
-	--darkmodeHighlightHex: #fff;
+	--darkmodeHighlightHex: #ffffff;
 	
-	--darkmodeTextHex: #fff;
+	--darkmodeTextHex: #ffffff;
 	
-	--darkmodeLinkHex: #fff;
+	--darkmodeLinkHex: #ffffff;
 	
-	--darkmodeTextInactiveHex: #fff;
+	--darkmodeTextInactiveHex: #ffffff;
 	
-	--darkmodeTextWarn90Hex: #fff;
+	--darkmodeTextWarn90Hex: #ffffff;
 	
-	--darkmodeTextWarnHex: #fff;
+	--darkmodeTextWarnHex: #ffffff;
 	
-	--darkmodeBorderHex: #fff;
+	--darkmodeBorderHex: #ffffff;
 	
-	--darkmodeQuickbarHex: #fff;
+	--darkmodeQuickbarHex: #ffffff;
 };
 
 
